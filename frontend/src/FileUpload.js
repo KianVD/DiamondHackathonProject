@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { UploadCloud, CheckCircle, XCircle } from "lucide-react";
 import { useAuth0 } from "@auth0/auth0-react";  // Auth0 hook for authentication
+import geminiicon from "../src/gemini_icon.png"
 
 // RiskBarometer component to show the risk status visually
 const RiskBarometer = ({ status }) => {
@@ -215,23 +216,25 @@ export default function FileUploadPage() {
         {randomStatus && <RiskBarometer status={randomStatus} />}
         <br />
 
-        {/* Gemini Report Button */}
-        <button
-          onClick={generateReport}
-          className="generate-report-btn"
-          disabled={!file || isUploading}
-        >
-          Generate Report with Gemini
-        </button>
+       {/* Gemini Report Button */}
+<button
+  onClick={generateReport}
+  className="generate-report-btn"
+  disabled={!file || isUploading}
+>
+  Generate Report with Gemini
+</button>
+        
+        <br />
 
-
-        <button
-          onClick={handleDownload}
-          className="download-btn"
-          disabled={!downloadEnabled}
-        >
-          {isAuthenticated ? "Download File" : "Please Log In to Download"}
-        </button>
+{/* Login/Download Button — now below the Gemini button */}
+<button
+  onClick={handleDownload}
+  className="download-btn"
+  disabled={!downloadEnabled}
+>
+  {isAuthenticated ? "Download File" : "Please Log In to Download"}
+</button>
 
         {isPopupVisible && isAuthenticated && (
           <div className="popup">

@@ -102,7 +102,11 @@ def token_required(f):
 def download_file():
     try:
         # Path to the file to be downloaded
+<<<<<<< HEAD
         file_name = 'Report.pdf'  # Example: 'file.pdf'
+=======
+        file_name = 'concise_credit_risk_report.pdf'  # Example: 'file.pdf'
+>>>>>>> 0210c6b02bf6f20debebeeda96d1378aebbe126b
         file_path = os.path.join(app.config['UPLOAD_FOLDER'], file_name)
 
         if os.path.exists(file_path):

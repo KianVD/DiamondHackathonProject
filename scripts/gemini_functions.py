@@ -8,7 +8,6 @@ import matplotlib.pyplot as plt
 from dotenv import load_dotenv
 import os
 
-card_number = 201429549783908;
 
 
 def generate_natural_language_explanation(user_data, card_number):
@@ -51,6 +50,8 @@ def generate_concise_report(user_data, pdf_filename='uploads/concise_credit_risk
     # Display key metrics.
     metrics = (
         f"<b>Transaction Count:</b> {user_data['total_transactions']}<br/>"
+        f"<b>Average amount in account before a transaction:</b> {user_data['avg_amount_before']}<br/>"
+        f"<b>Average amount in acocunt after a transaction:</b> {user_data['avg_amount_after']}<br/>"
     )
     story.append(Paragraph(metrics, styles['BodyText']))
     story.append(Spacer(1, 12))
