@@ -1,0 +1,51 @@
+transaction_id,card_number,transaction_date,transaction_amount,merchant_name,transaction_type,transaction_category,location,amount_before,amount_after
+1,201429549783908,7/30/2021,374.38,Wordtune,purchase,entertainment,6287 Tomscot Parkway,4199.66,5341.62
+2,6370171950243236,5/31/2021,5279.18,Ntag,refund,dining,40 Towne Avenue,18927.69,6356.84
+3,3549037698350570,9/24/2021,988.2,Kwideo,purchase,bills,804 Sutteridge Road,17882.02,4872.41
+4,3556479501707325,8/2/2021,5038.15,Jetpulse,refund,groceries,4 Ohio Center,3127.98,16203.43
+5,3583188571691965,8/5/2021,6521.78,Divanoodle,purchase,entertainment,190 Barby Center,2838.49,15080.16
+6,5593552965800560,3/29/2021,1487.74,Feedbug,refund,groceries,1384 Brentwood Avenue,3634.09,3833.52
+7,3569531482934008,4/11/2021,4158.46,Camimbo,refund,bills,5667 Union Hill,3203.47,18868.91
+8,3565149313916963,10/3/2021,1708.23,Livefish,withdrawal,groceries,73753 Packers Hill,17457.51,14497.68
+9,6379490169748947,6/28/2021,4340.29,Browsetype,refund,groceries,82045 Reindahl Hill,10155.32,17697.24
+10,3579099465082912,5/19/2021,5488.97,Rhyloo,purchase,groceries,116 Holy Cross Street,3528.8,9539.12
+11,5111757776559965,6/3/2021,4623.32,Meemm,purchase,dining,406 Reinke Way,2153.44,13857.41
+12,30372366258975,10/20/2021,5874.9,Buzzdog,purchase,dining,3 8th Road,3243.83,12173.55
+13,201839808939837,1/26/2021,4830.76,Wikizz,withdrawal,dining,97128 Sutherland Lane,13029.7,10403.76
+14,3571400360492982,3/3/2021,5562.37,Flashspan,purchase,bills,03359 Stephen Park,13195.53,5294.14
+15,3588527243849433,2/13/2021,1717.73,Dablist,withdrawal,entertainment,97251 Sheridan Circle,1704.74,1451.21
+16,3557243187844359,1/15/2021,3493.13,Brainverse,refund,bills,903 Hooker Drive,8919.31,1451.58
+17,5602231857788360,9/20/2021,7023.74,Leexo,refund,groceries,4 Havey Pass,7939.18,17728.8
+18,5534368772825373,12/9/2021,289.66,Flashset,purchase,groceries,09 Ronald Regan Trail,11494.46,17878.52
+19,50206188287049563,6/29/2021,4030.06,Flashset,refund,bills,44635 Fair Oaks Court,5125.94,6662.53
+20,5602253070949784198,7/26/2021,7723.11,Quimm,purchase,bills,82691 Havey Terrace,18474.64,6849.81
+21,6395747749712192,12/16/2021,537.84,Roodel,purchase,bills,6923 Hoffman Junction,17154.31,4305.12
+22,3589060159797957,2/25/2021,5920.92,Topiclounge,refund,dining,79298 4th Alley,12635.51,1868.54
+23,3567000461849886,12/6/2021,1587.33,Devpoint,purchase,dining,9974 Dwight Center,8278.59,17976.72
+24,3579043762663941,10/28/2021,6409.66,Quimba,refund,entertainment,840 Meadow Valley Parkway,3874.1,5314.2
+25,3531880526609745,8/29/2021,4629.98,Edgeclub,purchase,bills,961 Debra Circle,4390.77,18529.92
+26,63044412469257979,1/9/2021,4904.72,Tekfly,purchase,groceries,15818 Elgar Trail,11831.32,2056.11
+27,63049311170645610,11/20/2021,8771.58,Jetpulse,withdrawal,bills,07725 Del Mar Park,2004.88,16403.86
+28,3586561245460230,6/22/2021,9802.7,Jabbertype,withdrawal,entertainment,33174 Saint Paul Parkway,12371.62,375.42
+29,3535107002923812,1/5/2021,9454.52,Devify,purchase,dining,80 Elmside Terrace,1131.5,5557.37
+30,3532644677261337,2/6/2021,8573.14,Quinu,withdrawal,groceries,97949 Garrison Drive,19985.71,6543.49
+31,5372218066221224,3/6/2021,6904.09,Edgepulse,refund,dining,1 Columbus Trail,2787.89,17498.78
+32,3589057396707153,8/4/2021,6333.39,Tagchat,withdrawal,bills,52143 Macpherson Street,9477.65,13530.6
+33,374622312314767,9/30/2021,3748.14,Feednation,refund,dining,77739 5th Road,18977.45,2332.71
+34,67629841391929731,4/27/2021,7899.01,Realbridge,purchase,groceries,08 Parkside Drive,2924.66,1304.9
+35,5007665120065919,2/13/2021,3425.07,Photobug,withdrawal,dining,270 Arizona Terrace,13720.08,216.79
+36,5048371430512739,12/25/2021,7092.98,Skajo,purchase,groceries,8481 Oak Valley Drive,17874.5,11696.59
+37,201430442510901,4/22/2021,8171.87,Devify,purchase,dining,52431 Summer Ridge Trail,12559.61,10836.37
+38,3569550367092955,11/1/2021,4677.67,Skynoodle,refund,entertainment,04559 Bay Way,12398.25,9919.82
+39,503847185727872474,10/21/2021,3791.04,Linkbridge,purchase,dining,88926 High Crossing Hill,880.56,3857.65
+40,5602234942105558,8/22/2021,4491.31,Roomm,withdrawal,groceries,319 Brickson Park Center,10810.78,7961.29
+41,374283128086915,9/3/2021,5418.53,Roodel,purchase,groceries,217 Ohio Center,2506.08,841.39
+42,3583394785491636,3/23/2021,6021.56,Wordtune,withdrawal,groceries,678 Manufacturers Crossing,15952.49,1591.63
+43,3542616374492074,7/27/2021,2830.64,Skipfire,withdrawal,entertainment,50101 High Crossing Street,9111.69,2277.05
+44,30356491800470,6/29/2021,8750.71,Shufflebeat,refund,bills,11699 Stone Corner Court,19886.51,250.55
+45,3563132662042161,3/17/2021,8914.71,Gigaclub,refund,groceries,00 Raven Place,13883.52,4241.59
+46,503898551066914086,8/28/2021,7872.03,Aimbu,withdrawal,entertainment,1 Saint Paul Terrace,2799.94,912.18
+47,3573410058358963,1/15/2021,6024.83,Wikivu,purchase,entertainment,9 Armistice Drive,12167.86,19793.04
+48,56022539465637976,2/24/2021,7403.98,Realcube,purchase,groceries,31673 Debs Center,7290.65,140.85
+49,6762836436846763006,8/26/2021,2621.45,Oyoloo,withdrawal,entertainment,8940 Susan Plaza,11646.89,14894.36
+50,6709558143044766651,5/23/2021,8706.39,Skinder,withdrawal,bills,0938 Algoma Crossing,14489.59,19864.79
