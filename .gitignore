@@ -1,6 +1,13 @@
+<<<<<<< HEAD
+./scripts/uploads
+./scripts/__pycache__
+./.idea
+.env
+=======
 /scripts/uploads
 /scripts/__pycache__
 /.idea
 .env
 /scripts/tf_env
 /venv
+>>>>>>> 0210c6b02bf6f20debebeeda96d1378aebbe126b

@@ -10,7 +10,6 @@ import os
 
 
 
-
 def generate_natural_language_explanation(user_data, card_number):
     # Extract data for the specified card_number.
 

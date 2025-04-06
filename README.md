@@ -1,4 +1,8 @@
 # DiamondHackathonProject
+<<<<<<< HEAD
+
+create an assistant that will predict the risk of a person based on their debit transaction history
+=======
 # 🧠 CredLess – No credit, no problem !!!
 
 This is a fullstack web application that combines a **React frontend** with a **Flask backend** to analyze user data and generate concise credit risk reports using AI.
@@ -154,3 +158,4 @@ You can deploy this app using:
 - Backend checks for a valid **JWT access token** before allowing the request to proceed.
 - Once verified, the system generates the **PDF version** of the report and displays it or makes it downloadable .
 
+>>>>>>> 0210c6b02bf6f20debebeeda96d1378aebbe126b
