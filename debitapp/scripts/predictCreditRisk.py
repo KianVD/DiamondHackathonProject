@@ -10,6 +10,9 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.preprocessing import OneHotEncoder
 from sklearn.compose import ColumnTransformer
+import joblib
+
+
 
 df = pd.read_csv("../data/MOCK_DATA_with_credit_risk.csv")
 
@@ -59,4 +62,5 @@ model.fit(X_train, y_train, epochs=10, batch_size=16, validation_data=(X_test, y
 test_loss, test_accuracy = model.evaluate(X_test, y_test)
 print(f"Test Mean Absolute Error: {test_accuracy}")
 model.save("credit_risk_model.h5")
+joblib.dump(preprocessor, "credit_risk_preprocessor.pkl")
 
