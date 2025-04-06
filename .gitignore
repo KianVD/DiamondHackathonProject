@@ -1,0 +1,4 @@
+./scripts/uploads
+./scripts/__pycache__
+./.idea
+.env
