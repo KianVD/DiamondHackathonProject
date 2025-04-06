@@ -5,7 +5,7 @@ from sklearn.preprocessing import OneHotEncoder
 import matplotlib.pyplot as plt
 
 # Load the transaction data
-df = pd.read_csv("MOCK_DATA.csv")
+df = pd.read_csv("../data/MOCK_DATA.csv")
 
 # Inspect the columns to confirm the names of the identifier and amount columns.
 print("Columns in dataset:", df.columns.tolist())
@@ -23,7 +23,7 @@ print("Columns in dataset:", df.columns.tolist())
 
 # Perform one-hot encoding for categorical features
 categorical_columns = ['transaction_type', 'transaction_category', 'location']
-encoder = OneHotEncoder(sparse=False, drop='first')  # Drop first to avoid multicollinearity
+encoder = OneHotEncoder(sparse_output=False, drop='first')  # Drop first to avoid multicollinearity
 encoded_features = encoder.fit_transform(df[categorical_columns])
 
 # Convert the encoded features back to a DataFrame with proper column names
@@ -66,9 +66,9 @@ cluster_order = user_features.groupby('cluster')['total_amount'].mean().sort_val
 #   Lowest total_amount  -> "Low Risk"
 #   Medium total_amount  -> "Medium Risk"
 #   Highest total_amount -> "High Risk"
-risk_labels = {cluster_order[0]: 'Low Risk', 
-               cluster_order[1]: 'Medium Risk', 
-               cluster_order[2]: 'High Risk'}
+risk_labels = {cluster_order[0]: 0,
+               cluster_order[1]: 1,
+               cluster_order[2]: 2}
 user_features['credit_risk'] = user_features['cluster'].map(risk_labels)
 
 print("User features with assigned credit risk:")
@@ -107,3 +107,5 @@ print(df.head())
 
 # Optionally, save the updated dataset to a new CSV file.
 df.to_csv('MOCK_DATA_with_credit_risk.csv', index=False)
+
+
