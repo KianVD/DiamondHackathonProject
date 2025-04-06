@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { UploadCloud, CheckCircle, XCircle } from "lucide-react";
 import { useAuth0 } from "@auth0/auth0-react";  // Auth0 hook for authentication
 
+
 // RiskBarometer component to show the risk status visually
 const RiskBarometer = ({ status }) => {
   const riskLevels = {
@@ -221,7 +222,7 @@ export default function FileUploadPage() {
           className="generate-report-btn"
           disabled={!file || isUploading}
         >
-          Generate Report with Gemini
+          Generate Report with Gemini <img src="./Gemini.png" alt="Gemini Logo" width="20" height="20" />
         </button>
 
 
